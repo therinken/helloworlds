@@ -1,0 +1,35 @@
+{
+  "name": "helloworlds",
+  "version": "1.0.0",
+  "description": "a variety of \"Hello World\" BackboneJS apps from simple to not-so-simple\"",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therinken/helloworlds.git"
+  },
+  "author": "Ken McLeod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therinken/helloworlds/issues"
+  },
+  "homepage": "https://github.com/therinken/helloworlds",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-sass": "^1.2.4"
+  },
+  "dependencies": {
+    "express": "^4.10.4",
+    "lodash": "^2.4.1",
+    "method-override": "^2.3.0",
+    "request": "^2.49.0"
+  }
+}
