@@ -14,11 +14,13 @@ function app(){
         //js
         {url: "./bower_components/jquery/dist/jquery.min.js"},
         {url: "./bower_components/lodash/dist/lodash.min.js"},
-        {url: "./bower_components/backbone/backbone.js"}
+        {url: "./bower_components/backbone/backbone.js"},
+        {url: "./js/2.js"}
     ).then(function(){
         _.templateSettings.interpolate = /{([\s\S]+?)}/g;
         document.body.style.opacity = 1;
         // start app?
+        window.listView = new app.ListView();
     })
 
 }
