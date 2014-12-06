@@ -16,7 +16,7 @@ function app(){
         {url: "./bower_components/json2/json2.js"},
         {url: "./bower_components/lodash/dist/lodash.min.js"},
         {url: "./bower_components/backbone/backbone.js"},
-        {url: "./js/four.js"}
+        {url: "./js/five.js"}
     ).then(function(){
         _.templateSettings.interpolate = /{([\s\S]+?)}/g;
         document.body.style.opacity = 1;
