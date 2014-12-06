@@ -13,9 +13,10 @@ function app(){
         {url: "./dist/style.css"},
         //js
         {url: "./bower_components/jquery/dist/jquery.min.js"},
+        {url: "./bower_components/json2/json2.js"},
         {url: "./bower_components/lodash/dist/lodash.min.js"},
         {url: "./bower_components/backbone/backbone.js"},
-        {url: "./js/3.js"}
+        {url: "./js/four.js"}
     ).then(function(){
         _.templateSettings.interpolate = /{([\s\S]+?)}/g;
         document.body.style.opacity = 1;
